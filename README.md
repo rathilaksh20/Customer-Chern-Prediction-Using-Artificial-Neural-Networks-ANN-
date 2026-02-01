@@ -1,4 +1,4 @@
-Customer Churn Prediction Using Artificial Neural Networks (ANN)
+## Customer Churn Prediction Using Artificial Neural Networks (ANN)
 
 Project Description: This project focuses on predicting customer churn for a retail banking dataset using Machine Learning and Deep Learning techniques. The goal was to identify customers likely to exit the bank and understand how customer attributes impact retention.
 
@@ -18,3 +18,13 @@ Libraries used in this Project:
 2. Scikit-learn (preprocessing, evaluation)
 3. TensorFlow & Keras
 4. Matplotlib for visualization
+
+Model Performance and Evaluation:
+The Artificial Neural Network was trained and evaluated using both training and validation datasets to monitor learning behaviour and generalization performance.
+Loss Curve:  
+The training and validation loss consistently decrease across epochs, indicating stable convergence and effective optimization without significant overfitting.
+![Model Loss (Training vs Validation)](Model%20Loss(Training%20vs%20Validation).png)
+
+Accuracy Curve:  
+The model achieves strong and consistent accuracy on both training and validation sets, demonstrating reliable predictive performance on unseen data.
+![Model Accuracy (Training vs Validation)](Model%20Accuracy(Training%20vs%20Validation).png)
