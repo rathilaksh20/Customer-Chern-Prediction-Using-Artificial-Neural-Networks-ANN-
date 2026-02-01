@@ -20,7 +20,7 @@ Libraries used in this Project:
 4. Matplotlib for visualization
 
 Model Performance and Evaluation:
-The Artificial Neural Network was trained and evaluated using both training and validation datasets to monitor learning behaviour and generalization performance.
+The Artificial Neural Network was trained and evaluated using both training and validation datasets to monitor learning behaviour and generalization performance. 
 
 Loss Curve:  
 The training and validation loss consistently decrease across epochs, indicating stable convergence and effective optimization without significant overfitting.
@@ -31,3 +31,8 @@ Accuracy Curve:
 The model achieves strong and consistent accuracy on both training and validation sets, demonstrating reliable predictive performance on unseen data.
 
 ![Model Accuracy (Training vs Validation)](Model%20Accuracy(Training%20vs%20Validation).png)
+
+Confusion Matrix
+The confusion matrix provides a detailed breakdown of correct and incorrect predictions, highlighting how well the model distinguishes between churned and non-churned customers.
+
+![Confusion Matrix](Confusion%20Matrix.png)
