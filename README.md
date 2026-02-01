@@ -21,10 +21,13 @@ Libraries used in this Project:
 
 Model Performance and Evaluation:
 The Artificial Neural Network was trained and evaluated using both training and validation datasets to monitor learning behaviour and generalization performance.
+
 Loss Curve:  
 The training and validation loss consistently decrease across epochs, indicating stable convergence and effective optimization without significant overfitting.
+
 ![Model Loss (Training vs Validation)](Model%20Loss(Training%20vs%20Validation).png)
 
 Accuracy Curve:  
 The model achieves strong and consistent accuracy on both training and validation sets, demonstrating reliable predictive performance on unseen data.
+
 ![Model Accuracy (Training vs Validation)](Model%20Accuracy(Training%20vs%20Validation).png)
